@@ -1,0 +1,158 @@
+.App {
+  text-align: center;
+}
+body{
+  background-color: rgb(221, 221, 234);
+  border-radius:100px;
+ 
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+
+  
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+label{
+  color:rgb(37, 35, 35);
+  margin-right:30px;
+
+}
+
+input{
+  padding:5px 5px 5px 15px;
+  border: 2px solid rgb(191, 190, 190);
+  outline:none;
+  border-radius: 8px;
+
+}
+button {
+  background-color: white;
+  color: white;
+  background-color:#007FFF; /* Green */
+  border: none;
+  padding: 10px 52px;
+  border-radius:20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+.check{
+  background-color: #7dd4ec;
+  
+}
+span p{
+  background-color:#007FFF;
+  color:white;
+  padding:8px;
+  padding-left:10px;
+  border-radius:10px;
+  font-size: 20px;
+}
+.box{
+  margin-top: 46px;
+}
+.box .create{
+  margin-left:"-100px";
+}
+button:hover {background-color: #7dd4ec;color:black;}
+
+.App-link {
+  color: #7dd4ec;
+}
+.password-icon{
+  position: absolute;
+  top:20px;
+  right:5px;
+  cursor:pointer;
+}
+/* .igg:hover{
+  color:green;
+  background-color: green;
+} */
+.sidebar p{
+  font-size:16px;
+  margin-top:85px;
+  margin-left:40px;
+  color:white;
+  transition: 'transform 500ms ease';
+}
+.sidebar p:hover{
+color:#FFBF00;
+font-weight: bold;
+transition: 'transform 500ms ease';
+}
+
+.sidebar1 p{
+  font-size:16px;
+  margin-top:5px;
+  margin-left:-117px;
+  color:white;
+  transition: 'transform 500ms ease';
+}
+.sidebar1 p:hover{
+color:#FFBF00;
+font-weight: bold;
+transform:translateY(0);
+}
+.sidepic1 img{
+  width: 45px;
+   height: 45px;
+   margin-left: -100px;
+   margin-top:115px;
+   border-radius:50%;
+}
+.sidepic1 img:hover{
+  color:#FFBF00;
+  font-size: large;
+}
+.sidepic img{
+  width: 45px;
+   height: 45px;
+   margin-left: -100px;
+   margin-top:30px;
+   border-radius:50%;
+}
+/* .sidebar p:active{
+  color:green;
+  background-color:grey;
+  } */
+.kit p:hover
+{
+  color:#007FFF;
+
+}
+/* .sidebar
+{
+  height:500px;
+  width:250px;
+  background-color: black;
+} */
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
